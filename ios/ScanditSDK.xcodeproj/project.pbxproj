@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BCF7F51DF5711500D8F2AE /* ScanditSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BCF7F41DF5711500D8F2AE /* ScanditSDK.m */; };
+		79BCF7F61DF5711500D8F2AE /* ScanditSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79BCF7F31DF5711500D8F2AE /* ScanditSDK.h */; };
+		79DA3A501DF64A27006A1482 /* ScanditBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DA3A4F1DF64A27006A1482 /* ScanditBarcodeScanner.framework */; };
+		79DA3A761DF64F89006A1482 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DA3A751DF64F89006A1482 /* ScanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79BCF7EE1DF5711500D8F2AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				79BCF7F61DF5711500D8F2AE /* ScanditSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79BCF7F01DF5711500D8F2AE /* libScanditSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScanditSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BCF7F31DF5711500D8F2AE /* ScanditSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanditSDK.h; sourceTree = "<group>"; };
+		79BCF7F41DF5711500D8F2AE /* ScanditSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanditSDK.m; sourceTree = "<group>"; };
+		79DA3A4F1DF64A27006A1482 /* ScanditBarcodeScanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanditBarcodeScanner.framework; sourceTree = "<group>"; };
+		79DA3A741DF64F89006A1482 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		79DA3A751DF64F89006A1482 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BCF7ED1DF5711500D8F2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DA3A501DF64A27006A1482 /* ScanditBarcodeScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BCF7E71DF5711500D8F2AE = {
+			isa = PBXGroup;
+			children = (
+				79DA3A4E1DF64A27006A1482 /* Frameworks */,
+				79BCF7F21DF5711500D8F2AE /* ScanditSDK */,
+				79BCF7F11DF5711500D8F2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BCF7F11DF5711500D8F2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BCF7F01DF5711500D8F2AE /* libScanditSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BCF7F21DF5711500D8F2AE /* ScanditSDK */ = {
+			isa = PBXGroup;
+			children = (
+				79BCF7F31DF5711500D8F2AE /* ScanditSDK.h */,
+				79BCF7F41DF5711500D8F2AE /* ScanditSDK.m */,
+				79DA3A741DF64F89006A1482 /* ScanViewController.h */,
+				79DA3A751DF64F89006A1482 /* ScanViewController.m */,
+			);
+			path = ScanditSDK;
+			sourceTree = "<group>";
+		};
+		79DA3A4E1DF64A27006A1482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DA3A4F1DF64A27006A1482 /* ScanditBarcodeScanner.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BCF7EF1DF5711500D8F2AE /* ScanditSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BCF7F91DF5711500D8F2AE /* Build configuration list for PBXNativeTarget "ScanditSDK" */;
+			buildPhases = (
+				79BCF7EC1DF5711500D8F2AE /* Sources */,
+				79BCF7ED1DF5711500D8F2AE /* Frameworks */,
+				79BCF7EE1DF5711500D8F2AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanditSDK;
+			productName = ScanditSDK;
+			productReference = 79BCF7F01DF5711500D8F2AE /* libScanditSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BCF7E81DF5711500D8F2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = maGicuD;
+				TargetAttributes = {
+					79BCF7EF1DF5711500D8F2AE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79BCF7EB1DF5711500D8F2AE /* Build configuration list for PBXProject "ScanditSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79BCF7E71DF5711500D8F2AE;
+			productRefGroup = 79BCF7F11DF5711500D8F2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BCF7EF1DF5711500D8F2AE /* ScanditSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BCF7EC1DF5711500D8F2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BCF7F51DF5711500D8F2AE /* ScanditSDK.m in Sources */,
+				79DA3A761DF64F89006A1482 /* ScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79BCF7F71DF5711500D8F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79BCF7F81DF5711500D8F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BCF7FA1DF5711500D8F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanditSDK/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79BCF7FB1DF5711500D8F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanditSDK/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BCF7EB1DF5711500D8F2AE /* Build configuration list for PBXProject "ScanditSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BCF7F71DF5711500D8F2AE /* Debug */,
+				79BCF7F81DF5711500D8F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BCF7F91DF5711500D8F2AE /* Build configuration list for PBXNativeTarget "ScanditSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BCF7FA1DF5711500D8F2AE /* Debug */,
+				79BCF7FB1DF5711500D8F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BCF7E81DF5711500D8F2AE /* Project object */;
+}

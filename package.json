@@ -1,0 +1,28 @@
+{
+  "name": "react-native-scandit",
+  "version": "1.0.0",
+  "description": "Scandit SDK for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-native": "0.42.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamducgiam/react-native-scandit.git"
+  },
+  "keywords": [
+    "scandit",
+    "react",
+    "react-native"
+  ],
+  "author": "Pham Duc Giam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phamducgiam/react-native-scandit/issues"
+  },
+  "homepage": "https://github.com/phamducgiam/react-native-scandit#readme"
+}
